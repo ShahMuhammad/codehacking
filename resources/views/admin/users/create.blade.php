@@ -40,12 +40,12 @@
 
 
     <div class="form-group">
-  	 {!! Form::label('file', 'Title:') !!}
-  	 {!! Form::file('file', null, ['class'=>'form-control']) !!}
+  	 {!! Form::label('file', 'Photo:') !!}
+  	 {!! Form::file('photo_id', null, ['class'=>'form-control']) !!}
     </div>
 
 
-
+ 
     <div class="form-group">
   	 {!! Form::label('password', 'Password:') !!}
   	 {!! Form::password('password',['class'=>'form-control']) !!}

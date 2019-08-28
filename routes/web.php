@@ -27,4 +27,13 @@ Route::get('/admin', function(){
 
 
 
+// Route::resource('admin/users',
+
+//        'as'    =>  'admin.users',
+//        'uses'  =>   'AdminUsersController'
+
+// );
+
+
 Route::resource('admin/users', 'AdminUsersController');
+
